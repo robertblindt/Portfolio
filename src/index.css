@@ -1,0 +1,51 @@
+*{
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: grey;
+  background-image: linear-gradient(rgb(20, 22, 25), rgb(170,170,170));
+  min-height: 100vh;
+}
+
+.page-height{
+  height: 95vh;
+}
+
+.nav-vh{
+  height:5vh
+}
+
+.grad {
+  background-image: linear-gradient(rgb(70, 70, 70), rgb(170,170,170));
+}
+
+.high-card-shadow {
+  box-shadow:5px 5px 5px rgb(50,50,50);
+}
+
+.card-move-up:hover {
+  transform: translateY(-7vh);
+  transition: 0.5s
+}
+
+.card-move-up:hover::after {
+  transform: translateY(-7vh);
+  
+}
+
+
+.card-move-down:hover {
+  transform: translateY(5vh);
+  transition: 0.5s
+}
+
+.under-link{
+  display:block;
+}
+
+.home-card-size{
+  height:40vh;
+  width:50vh;
+}
